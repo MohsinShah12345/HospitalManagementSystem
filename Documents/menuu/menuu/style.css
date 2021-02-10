@@ -1,0 +1,66 @@
+body{
+background-image:url(back.jpg);
+background-repeat:no-repeat;
+}
+.main{
+width:100%;
+height:100px;
+}
+.left{
+width:40%;
+height:90px;
+text-align:center;
+float:left;
+}
+
+.right{
+width:40%;
+height:90px;
+text-align:center;
+float:right;
+}
+
+ul a
+{
+color:white;
+text-decoration:none;
+display:block;
+}
+li, .dbutton{
+width:100px;
+display:inline-block;
+height:25px;
+line-height:25px;
+text-align:center;
+background-color:black;
+margin-right:40px;
+}
+ul a:hover
+{
+background-color:orange;
+color:black;
+}
+.dropdown
+{
+display:inline-block;
+}
+.dmenu
+{
+display:none;
+position:absolute;
+background-color:red;
+width:100px;
+}
+.dmenu a
+{
+color:black;
+display:block;
+text-decoration:none;
+}
+.dmenu a:hover
+{background-color:pink;
+height:25px;
+}
+.dropdown:hover  .dmenu{
+display:block;}
+		  
